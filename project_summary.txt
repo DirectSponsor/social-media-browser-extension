@@ -1,0 +1,202 @@
+# ClickForCharity Social Media Team Browser Extension - Project Summary
+
+## Current Status: PLANNING PHASE 📋
+
+A browser extension to coordinate social media promotion tasks for ClickForCharity.net recipients through guided, automated workflows.
+
+## Project Overview
+
+### Core Concept
+Create a browser extension that guides volunteers through specific social media promotion tasks to:
+- Boost engagement (likes, comments, reposts, subscriptions)
+- Improve SEO rankings through coordinated searches and visits
+- Generate authentic social proof by posting about recipients' progress
+- Earn revenue for recipients via PaidToPromote and similar platforms
+- Enable effective collaboration through coordinated task completion
+
+### Why Browser Extension?
+- **Manual coordination too tedious** - Users expect polished, seamless experiences
+- **Proven concept** - ClicksPaid.com already demonstrates this workflow successfully
+- **Step-by-step guidance** - Extension can verify each action and provide next steps
+- **Scalable impact** - Small consistent actions from many people = big results
+
+## Technical Architecture
+
+### Core Components
+1. **Task Queue System** - Present tasks one at a time with clear instructions
+2. **Page Detection** - Know when user is on the right site/page
+3. **Action Verification** - Confirm clicks, form submissions, time spent, etc.
+4. **Progress Tracking** - Show completion status and points/rewards
+5. **Task Coordination** - Pull tasks from ClickForCharity server dynamically
+6. **User Interface** - Clean, intuitive popup for task instructions
+
+### Example Task Flow
+1. Start from ClickForCharity tasks page
+2. Go to Google with specific search term (auto-copied to clipboard)
+3. Search for target domain in results
+4. Click the correct result
+5. Scroll and spend 15 seconds on page
+6. Click specified internal link
+7. Navigate to partner site (e.g., Lightning.news)
+8. Complete and report back to extension
+
+### Multi-Benefit Design
+Each task helps multiple goals simultaneously:
+- Promote Nostr/social platforms
+- Increase ClickForCharity profile views
+- Improve site SEO and bounce rates
+- Generate revenue from ads/traffic
+- Support partner sites (Lightning.news, etc.)
+
+## Development Phases
+
+### Phase 1: Minimal Viable Extension (CURRENT)
+- [ ] Basic Chrome extension structure
+- [ ] Simple task loading from server
+- [ ] Basic page detection and verification
+- [ ] Clean UI for task instructions
+- [ ] Progress tracking
+- [ ] Beta testing with small group
+
+### Phase 2: Enhanced Features
+- [ ] Firefox support
+- [ ] Advanced task verification
+- [ ] Points/gamification system
+- [ ] User profiles and leaderboards
+- [ ] Task scheduling and notifications
+- [ ] Analytics and reporting
+
+### Phase 3: Full Platform
+- [ ] Mobile app companion
+- [ ] Advanced coordination features
+- [ ] Integration with ClickForCharity user accounts
+- [ ] Automated task generation
+- [ ] Team collaboration features
+- [ ] Comprehensive admin dashboard
+
+## Target Use Cases
+
+### Simple Tasks
+- Visit specific social media posts and engage (like, comment, share)
+- Follow links to boost site traffic and SEO
+- Subscribe to channels/accounts
+- View PaidToPromote pages to earn coins for recipients
+
+### Complex Multi-Step Tasks
+- Google search → click result → internal navigation → partner site visit
+- Social media engagement chains across multiple platforms
+- Coordinated timing for maximum impact
+- Cross-platform promotion workflows
+
+## Technical Requirements
+
+### Browser Extension Tech Stack
+- **Manifest V3** (Chrome/Edge standard)
+- **JavaScript/HTML/CSS** for UI and logic
+- **Chrome Extension APIs** for page interaction
+- **REST API integration** with ClickForCharity server
+- **Local storage** for user progress and settings
+
+### Server Integration
+- **Task Management API** - Fetch available tasks
+- **Progress Tracking** - Report task completion
+- **User Authentication** - Link to ClickForCharity accounts
+- **Analytics Collection** - Track effectiveness
+
+### Security Considerations
+- **Content Security Policy** compliance
+- **Secure API communication** (HTTPS)
+- **Privacy protection** - minimal data collection
+- **User consent** for all actions
+
+## File Structure (Planned)
+
+```
+social-media-team-extension/
+├── manifest.json              # Extension configuration
+├── popup/
+│   ├── popup.html            # Main UI interface
+│   ├── popup.css             # Styling
+│   └── popup.js              # UI logic
+├── content/
+│   ├── content.js            # Page interaction scripts
+│   └── verification.js       # Task verification logic
+├── background/
+│   └── background.js         # Background service worker
+├── api/
+│   └── tasks.js              # Server communication
+├── assets/
+│   ├── icons/                # Extension icons
+│   └── images/               # UI images
+├── docs/
+│   ├── API.md                # API documentation
+│   └── USER_GUIDE.md         # User instructions
+├── tests/
+│   └── test_tasks.json       # Test task definitions
+├── README.md                 # Installation and development guide
+└── project_summary.txt       # This file
+```
+
+## Competitive Analysis
+
+### ClicksPaid.com Extension
+- **Strengths**: Proven workflow system, established user base
+- **Opportunity**: Adapt successful patterns for ClickForCharity use case
+- **Available at**: https://jobs.clickspaid.com/download/clickspaid_jobs-5.33.xpi
+
+### Our Advantages
+- **Charity focus** - More meaningful mission for volunteers
+- **Multi-benefit tasks** - Each action helps multiple goals
+- **ClickForCharity integration** - Seamless user experience
+- **Customizable workflows** - Tailored to our specific needs
+
+## Success Metrics
+
+### Phase 1 Goals
+- [ ] 10+ beta testers actively using extension
+- [ ] 100+ tasks completed successfully
+- [ ] Positive feedback on user experience
+- [ ] Measurable impact on recipient engagement
+
+### Long-term Goals
+- [ ] 100+ active social media team members
+- [ ] 1000+ tasks completed per month
+- [ ] Significant SEO improvements for recipients
+- [ ] Measurable revenue increase for ClickForCharity
+
+## Next Immediate Steps
+
+1. **Set up development environment**
+   - Initialize Git repository
+   - Create GitHub repository
+   - Set up basic project structure
+
+2. **Build MVP extension**
+   - Create manifest.json for Chrome extension
+   - Build basic popup interface
+   - Implement simple task loading
+   - Add basic page detection
+
+3. **Create test tasks**
+   - Define simple test workflows
+   - Set up task verification
+   - Test with local development
+
+4. **Beta testing preparation**
+   - Package extension for testing
+   - Create user documentation
+   - Recruit initial beta testers
+
+## References and Resources
+
+- **Inspiration**: https://clickspaid.com/ and their browser extension
+- **Project page**: https://nimno.net/sites/clickforcharity-net/social-media-team/
+- **ClickForCharity main site**: https://clickforcharity.net/
+- **Chrome Extension docs**: https://developer.chrome.com/docs/extensions/
+
+---
+
+Last Updated: 2025-06-03
+Status: Planning Phase 📋
+Next Milestone: MVP Extension Development 🚀
+
