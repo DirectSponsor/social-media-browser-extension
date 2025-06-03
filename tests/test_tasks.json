@@ -1,0 +1,84 @@
+{
+  "tasks": [
+    {
+      "id": "test-nostr-1",
+      "title": "Visit ClickForCharity Nostr Post",
+      "description": "Help boost our Nostr presence by visiting and engaging with our latest post.",
+      "instructions": [
+        "Click the button to open our Nostr post",
+        "Like or repost if you have an account",
+        "Spend at least 30 seconds reading",
+        "Click any links to ClickForCharity if available"
+      ],
+      "targetUrl": "https://iris.to/note1ktftl9y7arjwrwrckfq2mks0qlzqlhzfsy20nn47p8exh2h3xacslfkzzn",
+      "duration": 45,
+      "points": 15,
+      "type": "social",
+      "category": "engagement",
+      "difficulty": "easy"
+    },
+    {
+      "id": "test-seo-1",
+      "title": "Google Search for ClickForCharity",
+      "description": "Help improve our search rankings by searching and visiting our site through Google.",
+      "instructions": [
+        "Click the button to open Google search",
+        "Search for 'ClickForCharity cryptocurrency charity'",
+        "Find and click on clickforcharity.net in results",
+        "Browse our site for at least 60 seconds",
+        "Visit the 'How it Works' page if possible"
+      ],
+      "targetUrl": "https://google.com/search?q=ClickForCharity+cryptocurrency+charity",
+      "duration": 90,
+      "points": 25,
+      "type": "seo",
+      "category": "search",
+      "difficulty": "medium"
+    },
+    {
+      "id": "test-partner-1",
+      "title": "Support Lightning.news Partner",
+      "description": "Visit our media partner Lightning.news and help support their content.",
+      "instructions": [
+        "Click the button to visit Lightning.news",
+        "Browse their homepage for 30 seconds",
+        "Read at least one full article",
+        "Share on social media if you can",
+        "Look for any ClickForCharity mentions or links"
+      ],
+      "targetUrl": "https://lightning.news",
+      "duration": 120,
+      "points": 30,
+      "type": "partner",
+      "category": "support",
+      "difficulty": "medium"
+    },
+    {
+      "id": "test-direct-1",
+      "title": "Explore ClickForCharity Website",
+      "description": "Take a tour of our main website and learn about our mission.",
+      "instructions": [
+        "Click the button to visit ClickForCharity.net",
+        "Read the homepage for 30 seconds",
+        "Navigate to 'How it Works' page",
+        "Check out our 'Recipients' section",
+        "Spend time understanding our mission"
+      ],
+      "targetUrl": "https://clickforcharity.net",
+      "duration": 180,
+      "points": 35,
+      "type": "education",
+      "category": "learn",
+      "difficulty": "easy"
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2025-06-03",
+    "totalTasks": 4,
+    "categories": ["engagement", "search", "support", "learn"],
+    "difficulties": ["easy", "medium"],
+    "maxPointsAvailable": 105
+  }
+}
+
