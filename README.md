@@ -1,3 +1,5 @@
+Moved to our own server now, archived this. 
+
 # ClickForCharity Social Media Team Browser Extension
 
 > A browser extension to coordinate social media promotion tasks for ClickForCharity.net recipients through guided, automated workflows.
